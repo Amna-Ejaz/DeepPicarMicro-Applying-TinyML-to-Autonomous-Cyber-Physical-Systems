@@ -1,0 +1,22 @@
+{
+  "rnd_seed": 1234,
+  "debug_level": 3,
+  "number_of_cores": 1,
+  "simulation_duration": 100000,
+  "number_of_trials": 1,
+  "log_on": true,
+  "log_base_folder": "../logs",
+  "sched_policy": "FPPS",
+  "sched_preemptive": true,
+  "HI_task_failure_rate": 0.05,
+  "HI_task_portion": 0.5,
+  "HI_task_C_factor": 3,
+  "check_schedulability_at_start": true,
+  "check_schedulability_after_change": false,
+  "taskset_number_of_task": 10,
+  "taskset_generate_retry_max_times": 999,
+  "taskset_util": [0.90],
+  "taskset_periods": [100, 200, 500, 1000, 2000, 5000],
+  "with_multithread_on": true,
+  "number_of_multithread_workers": 1
+}
